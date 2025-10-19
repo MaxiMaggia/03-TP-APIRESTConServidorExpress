@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Alta de Libro</title>
+  <link rel="stylesheet" href="css/estilos.css"/>
+</head>
+<body>
+  <h2>Alta de Libro</h2>
+
+  
+  <form action="/api/libros" method="post">
+    <label>Título</label>
+    <input type="text" name="titulo" required />
+
+    <label>Autor</label>
+    <input type="text" name="autor" required />
+
+    <label>Año</label>
+    <input type="number" name="año" required />
+
+    <button>Enviar</button>
+  </form>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+{
+  "type": "module",
+  "name": "apirestful-mvc-libros",
+  "version": "1.0.0",
+  "description": "TP3 API REST Libros - Express + MVC (memoria)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "MM",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}
